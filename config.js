@@ -1,7 +1,7 @@
 {
 
   "host": "0.0.0.0",
-  "port": 7777,
+  "port": 8080,
 
   "keyLength": 10,
 
@@ -34,9 +34,10 @@
 
   "storage": {
     "type": "redis",
-    "host": "0.0.0.0",
+    "host": "redis",
     "port": 6379,
     "db": 2,
+    "password": "sYACwB3PfDK3lI3B",
     "expire": 2592000
   },
 
